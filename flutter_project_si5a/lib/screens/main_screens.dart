@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_project_si5a/screens/favorite_screens.dart';
 import 'package:flutter_project_si5a/screens/home_screens.dart';
+import 'package:flutter_project_si5a/screens/login_screens.dart';
+
 import 'package:flutter_project_si5a/screens/profile_screens.dart';
 import 'package:flutter_project_si5a/screens/search_screens.dart';
 
@@ -19,6 +21,8 @@ class _MainScreenState extends State<MainScreen> {
     SearchScreen(),
     FavoriteScreen(),
     ProfileScreen(),
+    LoginScreen()
+    
   ];
 
   void _onItemTapped(int index){
@@ -41,6 +45,7 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(icon: Icon(Icons.favorite),label: 'Favorite'),
           // item keempat
           BottomNavigationBarItem(icon: Icon(Icons.person),label: 'Profile'),
+          
         ],
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,

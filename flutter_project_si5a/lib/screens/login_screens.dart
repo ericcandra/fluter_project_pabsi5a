@@ -39,7 +39,7 @@ class _LoginScreen extends State<LoginScreen> {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(16),
                         child: Image.asset(
-                          'images/android_1024.png',
+                          'images/hotel_logo.png',
                           fit: BoxFit.cover,
                         ),
                       ),

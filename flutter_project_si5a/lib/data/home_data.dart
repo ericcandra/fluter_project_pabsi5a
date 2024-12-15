@@ -1,5 +1,4 @@
 import 'package:flutter_project_si5a/models/home.dart';
-import 'package:flutter_project_si5a/models/home.dart';
 
 var homeList = [
   Home(
